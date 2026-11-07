@@ -1,0 +1,18 @@
+sayi1 = int(input("İlk sayıyı giriniz: "))
+sayi2 = int(input("İkinci sayıyı giriniz: "))
+islem = input("Hangi işlemi yapacaksınız? (+,-,*,/) : ")
+
+if islem == "*":
+   carpim = sayi1*sayi2
+   print(f"{sayi1} * {sayi2} = {carpim}")  
+elif islem == "+":
+   toplam = sayi1+sayi2
+   print(f"{sayi1} + {sayi2} = {toplam}")
+elif islem == "-":
+   fark = sayi1 - sayi2
+   print(f"{sayi1} - {sayi2} = {fark}")
+elif islem == "/":
+   bolum = sayi1/sayi2
+   print(f"{sayi1} / {sayi2} = {bolum}")
+else : print("Lütfen geçerli bir işlem giriniz.")         
+
